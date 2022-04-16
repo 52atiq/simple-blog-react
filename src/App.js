@@ -15,7 +15,7 @@ export const BlogContext = createContext()
 
 function App() {
   const [blogs, setBlogs] = useState([])
-  console.log(blogs);
+
   return (
     <BlogContext.Provider value={[blogs, setBlogs]}>
     <Navbar> </Navbar>
